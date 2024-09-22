@@ -58,6 +58,15 @@ To modify the application:
    cd roll-damping-streamlit
    ```
 2. Make changes to the code as needed.
+3. Modify `Dockerfile` as follows:
+replace line:
+    ```bash
+    RUN git clone https://github.com/pciuh/roll-damping-streamlit.git .
+    ```
+    with:
+    ```bash
+    COPY . /app
+    ```
 3. Rebuild the Docker image with the updated code.
 
 ```bash
