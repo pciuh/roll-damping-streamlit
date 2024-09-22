@@ -1,0 +1,10 @@
+Name,Value,Description
+L,230,"Reference length (typical LPP), m"
+B,32.2,"Reference breadth (typical moulded), m"
+T,10.8,"Draught, m"
+CB,0.651,Block coefficient
+CM,0.985,Midship coefficient
+KG,14.37,"Vertical center of gravity, m"
+Tfi,29,"Natural roll period, s"
+Lbk,36,"Length of bilge keels, m"
+Hbk,0.6,"Height of bilge keels, m"
