@@ -1,4 +1,3 @@
-
 # Roll Damping Coefficient Estimation (Streamlit App)
 
 This project provides a web-based application to estimate the roll damping coefficient using the IKEA method. It is packaged into a container using Streamlit for an interactive interface.
@@ -16,29 +15,22 @@ This project provides a web-based application to estimate the roll damping coeff
 You will need the following installed to run the application locally:
 
 - [Docker](https://docs.docker.com/get-docker/)
-  
+
 ### Running the Application
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/pciuh/roll-damping-streamlit.git
-   cd roll-damping-streamlit
-   ```
-
-2. Build the Docker image:
+1. Build the Docker image:
 
    ```bash
    docker build -t roll-damping-app .
    ```
 
-3. Run the Docker container:
+2. Run the Docker container:
 
    ```bash
    docker run -p 8501:8501 roll-damping-app
    ```
 
-4. Access the application by opening [http://localhost:8501](http://localhost:8501) in your browser.
+3. Access the application by opening [http://localhost:8501](http://localhost:8501) in your browser.
 
 ### Health Check
 
@@ -61,6 +53,10 @@ This ensures that the Streamlit service is running correctly.
 To modify the application:
 
 1. Clone the repository.
+   ```bash
+   git clone https://github.com/pciuh/roll-damping-streamlit.git
+   cd roll-damping-streamlit
+   ```
 2. Make changes to the code as needed.
 3. Rebuild the Docker image with the updated code.
 
