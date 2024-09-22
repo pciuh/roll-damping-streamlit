@@ -59,7 +59,7 @@ To modify the application:
    ```
 2. Make changes to the code as needed.
 3. Modify `Dockerfile` as follows:
-replace line:
+    replace line:
     ```bash
     RUN git clone https://github.com/pciuh/roll-damping-streamlit.git .
     ```
