@@ -80,4 +80,5 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions, feel free to reach out via GitHub issues.
+For any questions, just reach out to me on [LinkedIn](https://www.linkedin.com/in/sebastian-bielicki-27aa87204/) or [Messenger](https://m.me/sbbielicki).
+
